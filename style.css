@@ -1,0 +1,87 @@
+main {
+    background-image: linear-gradient(60deg, rgba(0, 0, 0, 0.925), rgb(18, 28, 165));
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5967e582e3df28924dd43f19/1590625493715-MP8WT3A3DQNNVNG2ISYM/BGmobile.jpg?format=1500w);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorange;
+    font-size: 40px;
+    border-bottom: solid 5px white;
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.input label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background: #000;
+    color: darkorange;
+    outline: none;
+    border-radius: 5px;
+}
+
+.result {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    box-shadow: 0px 0px 10px black;
+    background: #000;
+    color: darkkhaki;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
